@@ -471,9 +471,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 565.5, 1106.0, 314.0, 22.0 ],
+					"patching_rect" : [ 565.5, 1106.0, 316.0, 22.0 ],
 					"style" : "",
-					"text" : "sample pulsarKickValues @index samples @interp linear"
+					"text" : "sample pulsarHatsValues @index samples @interp linear"
 				}
 
 			}
