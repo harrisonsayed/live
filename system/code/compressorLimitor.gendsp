@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -200,18 +200,6 @@
 					"patching_rect" : [ 35.0, 727.5, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "atodb"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 92.5, 263.0, 154.0, 20.0 ],
-					"style" : "",
-					"text" : "for limiting, apply ratio of 0."
 				}
 
 			}
@@ -808,8 +796,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
