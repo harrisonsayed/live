@@ -1,0 +1,195 @@
+{
+	"pattrstorage" : 	{
+		"name" : "systemMain[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Macros" : [ -1 ],
+					"Melo" : [ -1 ],
+					"cLFT" : [ 4.0 ],
+					"cVP" : [ 0.0 ],
+					"cymbalLevel" : [ 0.0 ],
+					"dLFT" : [ 4.0 ],
+					"dVP" : [ 0.0 ],
+					"delayLevel" : [ 0.0 ],
+					"kLFT" : [ 4.0 ],
+					"kVP" : [ 0.0 ],
+					"kickLevel" : [ 0.0 ],
+					"live.gain~" : [ 0.0 ],
+					"pLFT" : [ 4.0 ],
+					"pMVal" : [ 0 ],
+					"pVP" : [ 0.0 ],
+					"percLevel" : [ 0.0 ],
+					"subLFT" : [ 2000.0 ],
+					"subLevel" : [ 0.0 ],
+					"subVP" : [ 0.0 ],
+					"synLFT" : [ 4.0 ],
+					"synVP" : [ 0.0 ],
+					"synthLevel" : [ 0.0 ],
+					"rtmRulesSel" : [  ],
+					"systemControls::systemControls[1]" : [ 1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Macros" : [ -1 ],
+					"Melo" : [ -1 ],
+					"cLFT" : [ 2.0 ],
+					"cVP" : [ 1.0 ],
+					"cymbalLevel" : [ 0.0 ],
+					"dLFT" : [ 4.0 ],
+					"dVP" : [ 1.0 ],
+					"delayLevel" : [ 0.0 ],
+					"kLFT" : [ 4.0 ],
+					"kVP" : [ 1.0 ],
+					"kickLevel" : [ 4.0 ],
+					"live.gain~" : [ 0.0 ],
+					"pLFT" : [ 4000.0 ],
+					"pMVal" : [ 2 ],
+					"pVP" : [ 1.0 ],
+					"percLevel" : [ 3.8 ],
+					"subLFT" : [ 8000.0 ],
+					"subLevel" : [ 3.848669 ],
+					"subVP" : [ 1.0 ],
+					"synLFT" : [ 40000.0 ],
+					"synVP" : [ 1.0 ],
+					"synthLevel" : [ 3.99503 ],
+					"rtmRulesSel" : [ 3 ],
+					"systemControls::systemControls[1]" : [ 2 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"Macros" : [ -1 ],
+					"Melo" : [ -1 ],
+					"cLFT" : [ 4.0 ],
+					"cVP" : [ 6.0 ],
+					"cymbalLevel" : [ 3.232561 ],
+					"dLFT" : [ 4.0 ],
+					"dVP" : [ 1.0 ],
+					"delayLevel" : [ 0.0 ],
+					"kLFT" : [ 4.0 ],
+					"kVP" : [ 6.0 ],
+					"kickLevel" : [ 4.044778 ],
+					"live.gain~" : [ 0.0 ],
+					"pLFT" : [ 4.0 ],
+					"pMVal" : [ 1 ],
+					"pVP" : [ 6.0 ],
+					"percLevel" : [ 3.103554 ],
+					"subLFT" : [ 2.0 ],
+					"subLevel" : [ 3.513138 ],
+					"subVP" : [ 6.0 ],
+					"synLFT" : [ 20000.0 ],
+					"synVP" : [ 6.0 ],
+					"synthLevel" : [ 1.0 ],
+					"rtmRulesSel" : [ 6 ],
+					"systemControls::systemControls[1]" : [ 3 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Macros" : [ -1 ],
+					"Melo" : [ -1 ],
+					"cLFT" : [ 8000.0 ],
+					"cVP" : [ 4.0 ],
+					"cymbalLevel" : [ 0.5 ],
+					"dLFT" : [ 4.0 ],
+					"dVP" : [ 1.0 ],
+					"delayLevel" : [ 0.0 ],
+					"kLFT" : [ 4.0 ],
+					"kVP" : [ 7.0 ],
+					"kickLevel" : [ 4.0 ],
+					"live.gain~" : [ 0.0 ],
+					"pLFT" : [ 2.0 ],
+					"pMVal" : [ 0 ],
+					"pVP" : [ 4.0 ],
+					"percLevel" : [ 1.0 ],
+					"subLFT" : [ 2.0 ],
+					"subLevel" : [ 4.011807 ],
+					"subVP" : [ 6.0 ],
+					"synLFT" : [ 8000.0 ],
+					"synVP" : [ 0.0 ],
+					"synthLevel" : [ 0.5 ],
+					"rtmRulesSel" : [ 7 ],
+					"systemControls::systemControls[1]" : [ 4 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"Macros" : [ -1 ],
+					"Melo" : [ -1 ],
+					"cLFT" : [ 20000.0 ],
+					"cVP" : [ 3.0 ],
+					"cymbalLevel" : [ 0.0 ],
+					"dLFT" : [ 4.0 ],
+					"dVP" : [ 1.0 ],
+					"delayLevel" : [ 0.0 ],
+					"kLFT" : [ 4000.0 ],
+					"kVP" : [ 5.78 ],
+					"kickLevel" : [ 3.641562 ],
+					"live.gain~" : [ 0.0 ],
+					"pLFT" : [ 20000.0 ],
+					"pMVal" : [ 3 ],
+					"pVP" : [ 2.0 ],
+					"percLevel" : [ 0.0 ],
+					"subLFT" : [ 2.0 ],
+					"subLevel" : [ 4.011807 ],
+					"subVP" : [ 5.0 ],
+					"synLFT" : [ 20000.0 ],
+					"synVP" : [ 1.926 ],
+					"synthLevel" : [ 0.998964 ],
+					"rtmRulesSel" : [ 5 ],
+					"systemControls::systemControls[1]" : [ 5 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"Macros" : [ -1 ],
+					"Melo" : [ -1 ],
+					"cLFT" : [ 2.0 ],
+					"cVP" : [ 7.0 ],
+					"cymbalLevel" : [ 0.077519 ],
+					"dLFT" : [ 4.0 ],
+					"dVP" : [ 1.0 ],
+					"delayLevel" : [ 0.0 ],
+					"kLFT" : [ 4.0 ],
+					"kVP" : [ 4.0 ],
+					"kickLevel" : [ 4.0 ],
+					"live.gain~" : [ 0.0 ],
+					"pLFT" : [ 2.0 ],
+					"pMVal" : [ 1 ],
+					"pVP" : [ 0.0 ],
+					"percLevel" : [ 0.025341 ],
+					"subLFT" : [ 2.0 ],
+					"subLevel" : [ 1.860465 ],
+					"subVP" : [ 4.0 ],
+					"synLFT" : [ 2.0 ],
+					"synVP" : [ 0.6 ],
+					"synthLevel" : [ 0.631036 ],
+					"rtmRulesSel" : [ 3 ],
+					"systemControls::systemControls[1]" : [ 6 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

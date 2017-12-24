@@ -2,12 +2,12 @@
 	"name" : "system",
 	"version" : 1,
 	"creationdate" : -702553195,
-	"modificationdate" : -698042910,
+	"modificationdate" : -697965430,
 	"viewrect" : [ 29.0, 47.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
 			"system.maxpat" : 			{
@@ -39,7 +39,47 @@
 				"local" : 1
 			}
 ,
+			"peakLimiter.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"modFMSynth.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"cheapDucker.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"simpleFMKick.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"rtm.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"highShelf.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"system231217.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"multibandCompressorPeakLimiter(mono).gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"sub.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -49,7 +89,42 @@
 				"local" : 1
 			}
 ,
+			"tPTV2.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"tptLowpass.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"systemCymbal.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"systemEQ.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"peakNotch.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"lowShelf.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"cymbal.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"perc.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -104,27 +179,17 @@
 				"local" : 1
 			}
 ,
-			"systemEQ.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"multibandCompressorPeakLimiter(mono).gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"template.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"storageBank.gendsp" : 			{
+			"slideFix.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"slideFix.gendsp" : 			{
+			"storageBank.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -135,11 +200,6 @@
 			}
 ,
 			"system102717.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"meloRulesAbstraction.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -174,11 +234,6 @@
 				"local" : 1
 			}
 ,
-			"ducker.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"rtmRulesAbstraction.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
@@ -188,6 +243,15 @@
 				"kind" : "gendsp",
 				"local" : 1
 			}
+,
+			"meloRulesAbstraction.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
 
 		}
 
@@ -206,5 +270,5 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0
+	"sortmode" : 1
 }

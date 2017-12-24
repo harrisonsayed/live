@@ -38,6 +38,47 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 137.5, 464.363953, 147.0, 20.0 ],
+					"style" : "",
+					"text" : "s toChordScalesColl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 199.5, 413.893799, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.845833, 552.999939, 42.0, 42.0 ],
+					"style" : "velvet"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 145.0, 425.76767, 39.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.845833, 507.999939, 42.308334, 20.0 ],
+					"style" : "velvet",
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-67",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -132,25 +173,24 @@
 					"patching_rect" : [ 560.0, 567.0, 183.0, 20.0 ],
 					"restore" : 					{
 						"cDGR" : [ -7.0 ],
-						"chordTog" : [ 0 ],
+						"chordTog" : [ 1 ],
 						"dT" : [ 90.0 ],
 						"density" : [ 0.5 ],
 						"gGFT" : [ 0.0001 ],
 						"gTT" : [ 32.0 ],
 						"indeterminency" : [ 0.0 ],
-						"kRM" : [ 2.0 ],
-						"modeSel" : [ 5 ],
+						"kRM" : [ 0.0 ],
+						"modeSel" : [ 0 ],
 						"pDGR" : [ -3.0 ],
-						"pRM" : [ 1.0 ],
+						"pRM" : [ 0.0 ],
 						"sDGR" : [ -12.0 ],
 						"sDT" : [ 90.0 ],
 						"sRM" : [ 0.0 ],
-						"swing" : [ 0.0 ],
+						"swing" : [ 0.2 ],
 						"synDGR" : [ -6.0 ],
-						"synMeloRulePosit" : [ 2 ],
+						"synMeloRulePosit" : [ 0 ],
 						"synRM" : [ 0.0 ],
-						"tempo" : [ 120.0 ],
-						"tensionLength" : [ 64.0 ]
+						"tensionLength" : [ 16.0 ]
 					}
 ,
 					"style" : "",
@@ -300,7 +340,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 376.0, 501.999939, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.5, 545.999939, 50.0, 20.0 ],
+					"presentation_rect" : [ 150.0, 552.999939, 50.0, 20.0 ],
 					"style" : "velvet",
 					"triangle" : 0
 				}
@@ -315,7 +355,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 376.0, 529.999939, 155.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.5, 567.999939, 155.0, 20.0 ],
+					"presentation_rect" : [ 150.0, 574.999939, 155.0, 20.0 ],
 					"style" : "velvet",
 					"text" : "subMeloRulesPosit $1"
 				}
@@ -333,7 +373,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 198.772522, 501.999939, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.5, 500.999939, 50.0, 20.0 ],
+					"presentation_rect" : [ 150.0, 507.999939, 50.0, 20.0 ],
 					"style" : "velvet",
 					"triangle" : 0,
 					"varname" : "synMeloRulePosit"
@@ -349,7 +389,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 198.772522, 529.999939, 169.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.5, 523.999939, 169.0, 20.0 ],
+					"presentation_rect" : [ 150.0, 530.999939, 169.0, 20.0 ],
 					"style" : "velvet",
 					"text" : "synthMeloRulesPosit $1"
 				}
@@ -705,7 +745,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4.0, 501.999939, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 500.999939, 50.0, 20.0 ],
+					"presentation_rect" : [ 57.0, 507.999939, 50.0, 20.0 ],
 					"style" : "velvet",
 					"triangle" : 0,
 					"varname" : "modeSel"
@@ -722,7 +762,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 97.964111, 501.999939, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 545.999939, 19.0, 19.0 ],
+					"presentation_rect" : [ 57.0, 552.999939, 19.0, 19.0 ],
 					"style" : "velvet",
 					"varname" : "chordTog"
 				}
@@ -737,7 +777,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.964111, 529.999939, 90.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 567.999939, 90.0, 20.0 ],
+					"presentation_rect" : [ 57.0, 574.999939, 90.0, 20.0 ],
 					"style" : "velvet",
 					"text" : "chordTog $1"
 				}
@@ -752,7 +792,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.0, 529.999939, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 524.999939, 83.0, 20.0 ],
+					"presentation_rect" : [ 57.0, 531.999939, 83.0, 20.0 ],
 					"style" : "velvet",
 					"text" : "modeSel $1"
 				}
@@ -834,7 +874,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 34.999939, 109.0, 32.0 ],
+					"patching_rect" : [ 193.0, 34.999939, 117.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 193.0, 34.999939, 117.0, 32.0 ],
@@ -930,8 +970,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 6.999939, 50.0, 20.0 ],
 					"style" : "velvet",
-					"triangle" : 0,
-					"varname" : "tempo"
+					"triangle" : 0
 				}
 
 			}
@@ -1585,6 +1624,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 147.0, 467.0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"midpoints" : [ 313.5, 61.666626, 13.5, 61.666626 ],
 					"source" : [ "obj-71", 0 ]
@@ -1603,6 +1650,13 @@
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 271.450043, 380.999939, 13.5, 380.999939 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

@@ -1223,7 +1223,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.0, 211.61499, 212.0, 22.0 ],
 					"style" : "",
-					"text" : "param subMeloRulesPosit @default 1"
+					"text" : "param subMeloRulesPosit @default 4"
 				}
 
 			}
