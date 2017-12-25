@@ -2,7 +2,7 @@
 	"name" : "system",
 	"version" : 1,
 	"creationdate" : -702553195,
-	"modificationdate" : -697956573,
+	"modificationdate" : -697955880,
 	"viewrect" : [ 829.0, 174.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -39,17 +39,12 @@
 				"local" : 1
 			}
 ,
-			"highPass.gendsp" : 			{
+			"triggeredGate.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"noizBrst.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"scaledRamp.gendsp" : 			{
+			"triggeredAccumulation(v2).gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -65,11 +60,6 @@
 			}
 ,
 			"systemPerc.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"rampsmooth.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -94,37 +84,12 @@
 				"local" : 1
 			}
 ,
-			"simpleFM.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"systemSynth.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"rSR.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"systemSub.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"macroInterpolation.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"tanHWavefold.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"wFDistortion.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -165,6 +130,51 @@
 			}
 ,
 			"slideFix.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"highPass.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"noizBrst.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"scaledRamp.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"rampsmooth.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"simpleFM.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"rSR.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"macroInterpolation.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"tanHWavefold.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"wFDistortion.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -210,6 +220,11 @@
 			}
 ,
 			"gainReson.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"allpass.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
