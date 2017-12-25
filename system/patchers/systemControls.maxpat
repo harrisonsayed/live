@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 665.0, 413.893799, 104.0, 20.0 ],
+					"style" : "",
+					"text" : "storagewindow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -144,22 +157,23 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "systemControlsStorage.json",
 					"id" : "obj-47",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 560.0, 533.0, 212.0, 32.0 ],
+					"patching_rect" : [ 560.0, 533.0, 263.0, 32.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 464, 306 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 766, 44, 1220, 302 ]
 					}
 ,
 					"style" : "",
-					"text" : "pattrstorage systemControls @savemode 2",
-					"varname" : "systemControls[1]"
+					"text" : "pattrstorage systemControlsStorage @savemode 2",
+					"varname" : "systemControlsStorage"
 				}
 
 			}
@@ -170,32 +184,32 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 560.0, 567.0, 183.0, 20.0 ],
+					"patching_rect" : [ 560.0, 567.0, 234.0, 20.0 ],
 					"restore" : 					{
-						"cDGR" : [ -7.0 ],
-						"chordTog" : [ 1 ],
+						"cDGR" : [ -12.0 ],
+						"chordTog" : [ 0 ],
 						"dT" : [ 90.0 ],
-						"density" : [ 0.5 ],
-						"gGFT" : [ 0.0001 ],
-						"gTT" : [ 32.0 ],
+						"density" : [ 0.6 ],
+						"gGFT" : [ 100.0 ],
+						"gTT" : [ 16.0 ],
 						"indeterminency" : [ 0.0 ],
 						"kRM" : [ 0.0 ],
-						"modeSel" : [ 0 ],
+						"modeSel" : [ 6 ],
 						"pDGR" : [ -3.0 ],
-						"pRM" : [ 0.0 ],
-						"sDGR" : [ -12.0 ],
+						"pRM" : [ 1.0 ],
+						"sDGR" : [ -9.0 ],
 						"sDT" : [ 90.0 ],
-						"sRM" : [ 0.0 ],
-						"swing" : [ 0.2 ],
-						"synDGR" : [ -6.0 ],
-						"synMeloRulePosit" : [ 0 ],
-						"synRM" : [ 0.0 ],
-						"tensionLength" : [ 16.0 ]
+						"sRM" : [ 0.2 ],
+						"swing" : [ 0.3 ],
+						"synDGR" : [ -12.0 ],
+						"synMeloRulePosit" : [ 3 ],
+						"synRM" : [ 0.5 ],
+						"tensionLength" : [ 64.0 ]
 					}
 ,
 					"style" : "",
-					"text" : "autopattr systemControls",
-					"varname" : "systemControls"
+					"text" : "autopattr systemControlsStorage",
+					"varname" : "systemControlsStorage[1]"
 				}
 
 			}
@@ -1569,6 +1583,13 @@
 					"destination" : [ "obj-41", 0 ],
 					"midpoints" : [ 202.5, 61.999939, 13.5, 61.999939 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}

@@ -2,8 +2,8 @@
 	"name" : "system",
 	"version" : 1,
 	"creationdate" : -702553195,
-	"modificationdate" : -697965430,
-	"viewrect" : [ 29.0, 47.0, 300.0, 500.0 ],
+	"modificationdate" : -697956573,
+	"viewrect" : [ 829.0, 174.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -39,32 +39,17 @@
 				"local" : 1
 			}
 ,
-			"peakLimiter.gendsp" : 			{
+			"highPass.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"modFMSynth.gendsp" : 			{
+			"noizBrst.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"cheapDucker.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"simpleFMKick.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"rtm.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"highShelf.gendsp" : 			{
+			"scaledRamp.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -79,22 +64,12 @@
 				"local" : 1
 			}
 ,
-			"sub.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"systemPerc.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
-			"tPTV2.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"tptLowpass.gendsp" : 			{
+			"rampsmooth.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -109,26 +84,6 @@
 				"local" : 1
 			}
 ,
-			"peakNotch.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"lowShelf.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"cymbal.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"perc.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"fletcherMunsonEqualizer.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
@@ -139,12 +94,37 @@
 				"local" : 1
 			}
 ,
+			"simpleFM.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"systemSynth.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
 ,
+			"rSR.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"systemSub.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"macroInterpolation.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"tanHWavefold.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"wFDistortion.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -185,6 +165,76 @@
 			}
 ,
 			"slideFix.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"peakLimiter.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"modFMSynth.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"cheapDucker.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"simpleFMKick.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"rtm.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"highShelf.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"sub.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"tPTV2.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"gainReson.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"tptLowpass.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"peakNotch.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"lowShelf.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"cymbal.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"perc.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -252,6 +302,10 @@
 		}
 ,
 		"data" : 		{
+			"systemMain.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
 
 		}
 

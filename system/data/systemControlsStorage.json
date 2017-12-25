@@ -1,0 +1,165 @@
+{
+	"pattrstorage" : 	{
+		"name" : "systemControlsStorage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 0 ],
+					"dT" : [ 90.0 ],
+					"density" : [ 0.6 ],
+					"gGFT" : [ 100.0 ],
+					"gTT" : [ 16.0 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 6 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 1.0 ],
+					"sDGR" : [ -9.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.3 ],
+					"synDGR" : [ -12.0 ],
+					"synMeloRulePosit" : [ 3 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 64.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"cDGR" : [ -7.0 ],
+					"chordTog" : [ 1 ],
+					"dT" : [ 90.0 ],
+					"density" : [ 0.55 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 0.05 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 1 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -12.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.0 ],
+					"swing" : [ 0.05 ],
+					"synDGR" : [ -12.0 ],
+					"synMeloRulePosit" : [ 2 ],
+					"synRM" : [ 0.0 ],
+					"tensionLength" : [ 64.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"cDGR" : [ -7.0 ],
+					"chordTog" : [ 1 ],
+					"dT" : [ 90.0 ],
+					"density" : [ 0.45 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 4.0 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 7 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -12.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.0 ],
+					"swing" : [ 0.2 ],
+					"synDGR" : [ -12.0 ],
+					"synMeloRulePosit" : [ 3 ],
+					"synRM" : [ 0.0 ],
+					"tensionLength" : [ 16.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"cDGR" : [ -7.0 ],
+					"chordTog" : [ 0 ],
+					"dT" : [ 90.0 ],
+					"density" : [ 0.55 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 0.05 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 7 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -12.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.0 ],
+					"swing" : [ 0.4 ],
+					"synDGR" : [ -12.0 ],
+					"synMeloRulePosit" : [ 1 ],
+					"synRM" : [ 0.0 ],
+					"tensionLength" : [ 8.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 1 ],
+					"dT" : [ 120.0 ],
+					"density" : [ 0.6 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 8.0 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 5 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -24.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.0 ],
+					"synDGR" : [ -30.0 ],
+					"synMeloRulePosit" : [ 3 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 32.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 0 ],
+					"dT" : [ 90.0 ],
+					"density" : [ 0.6 ],
+					"gGFT" : [ 100.0 ],
+					"gTT" : [ 16.0 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 6 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 1.0 ],
+					"sDGR" : [ -9.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.3 ],
+					"synDGR" : [ -12.0 ],
+					"synMeloRulePosit" : [ 3 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 64.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
