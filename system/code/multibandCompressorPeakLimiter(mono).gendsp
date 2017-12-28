@@ -315,9 +315,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.999996, 170.600235, 334.0, 22.0 ],
+					"patching_rect" : [ 1.999996, 170.600235, 179.0, 22.0 ],
 					"style" : "",
-					"text" : "gen @gen slidefix.gendsp"
+					"text" : "gen @gen rampsmooth.gendsp"
 				}
 
 			}

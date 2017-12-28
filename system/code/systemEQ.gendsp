@@ -46,7 +46,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 49.0, 3.0, 172.0, 22.0 ],
 					"style" : "",
-					"text" : "param lowsCf_1 @default 350"
+					"text" : "param lowsCf_1 @default 120"
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 53.0, 101.39978, 180.0, 22.0 ],
 					"style" : "",
-					"text" : "param midsCf_1 @default 2250"
+					"text" : "param midsCf_1 @default 1850"
 				}
 
 			}

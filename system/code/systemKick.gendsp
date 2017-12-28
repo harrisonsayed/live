@@ -380,9 +380,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 137.633331, 334.0, 22.0 ],
+					"patching_rect" : [ 8.0, 137.633331, 137.0, 22.0 ],
 					"style" : "",
-					"text" : "gen @gen slidefix.gendsp"
+					"text" : "gen @gen slide.gendsp"
 				}
 
 			}
@@ -483,9 +483,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.358337, 481.499054, 149.0, 22.0 ],
+					"patching_rect" : [ 302.358337, 481.499054, 137.0, 22.0 ],
 					"style" : "",
-					"text" : "gen @gen slidefix.gendsp"
+					"text" : "gen @gen slide.gendsp"
 				}
 
 			}
@@ -772,7 +772,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-969", 1 ],
-					"midpoints" : [ 441.858337, 474.298981, 376.858337, 474.298981 ],
+					"midpoints" : [ 441.858337, 474.298981, 370.858337, 474.298981 ],
 					"order" : 1,
 					"source" : [ "obj-971", 0 ]
 				}

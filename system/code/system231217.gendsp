@@ -5534,6 +5534,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-217", 2 ],
+					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"source" : [ "obj-141", 0 ]
 				}

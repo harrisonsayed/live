@@ -2,7 +2,7 @@
 	"name" : "system",
 	"version" : 1,
 	"creationdate" : -702553195,
-	"modificationdate" : -697955880,
+	"modificationdate" : -697895578,
 	"viewrect" : [ 829.0, 174.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -35,16 +35,6 @@
 ,
 		"code" : 		{
 			"mBCGainReduction.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"triggeredGate.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"triggeredAccumulation(v2).gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -130,6 +120,16 @@
 			}
 ,
 			"slideFix.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"triggeredGate.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"triggeredAccumulation(v2).gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}

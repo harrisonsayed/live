@@ -60,7 +60,7 @@
 					"cDGR" : [ -7.0 ],
 					"chordTog" : [ 1 ],
 					"dT" : [ 90.0 ],
-					"density" : [ 0.45 ],
+					"density" : [ 0.5 ],
 					"gGFT" : [ 0.0001 ],
 					"gTT" : [ 4.0 ],
 					"indeterminency" : [ 0.0 ],
@@ -75,7 +75,7 @@
 					"synDGR" : [ -12.0 ],
 					"synMeloRulePosit" : [ 3 ],
 					"synRM" : [ 0.0 ],
-					"tensionLength" : [ 16.0 ]
+					"tensionLength" : [ 64.0 ]
 				}
 
 			}
@@ -91,15 +91,15 @@
 					"gTT" : [ 0.05 ],
 					"indeterminency" : [ 0.0 ],
 					"kRM" : [ 0.0 ],
-					"modeSel" : [ 7 ],
+					"modeSel" : [ 6 ],
 					"pDGR" : [ -3.0 ],
 					"pRM" : [ 0.0 ],
 					"sDGR" : [ -12.0 ],
 					"sDT" : [ 90.0 ],
 					"sRM" : [ 0.0 ],
-					"swing" : [ 0.4 ],
+					"swing" : [ 0.1 ],
 					"synDGR" : [ -12.0 ],
-					"synMeloRulePosit" : [ 1 ],
+					"synMeloRulePosit" : [ 3 ],
 					"synRM" : [ 0.0 ],
 					"tensionLength" : [ 8.0 ]
 				}
@@ -154,6 +154,110 @@
 					"synMeloRulePosit" : [ 3 ],
 					"synRM" : [ 0.5 ],
 					"tensionLength" : [ 64.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 1 ],
+					"dT" : [ 120.0 ],
+					"density" : [ 0.6 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 0.005 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 1 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -12.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.9 ],
+					"synDGR" : [ -6.0 ],
+					"synMeloRulePosit" : [ 2 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 32.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 0 ],
+					"dT" : [ 120.0 ],
+					"density" : [ 0.6 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 0.005 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 3 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -9.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.1 ],
+					"synDGR" : [ -6.0 ],
+					"synMeloRulePosit" : [ 0 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 32.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 0 ],
+					"dT" : [ 120.0 ],
+					"density" : [ 0.55 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 0.005 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 6 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -9.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.1 ],
+					"synDGR" : [ -6.0 ],
+					"synMeloRulePosit" : [ 1 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 32.0 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"cDGR" : [ -12.0 ],
+					"chordTog" : [ 1 ],
+					"dT" : [ 120.0 ],
+					"density" : [ 0.55 ],
+					"gGFT" : [ 0.0001 ],
+					"gTT" : [ 0.005 ],
+					"indeterminency" : [ 0.0 ],
+					"kRM" : [ 0.0 ],
+					"modeSel" : [ 2 ],
+					"pDGR" : [ -3.0 ],
+					"pRM" : [ 0.0 ],
+					"sDGR" : [ -12.0 ],
+					"sDT" : [ 90.0 ],
+					"sRM" : [ 0.2 ],
+					"swing" : [ 0.01 ],
+					"synDGR" : [ -6.0 ],
+					"synMeloRulePosit" : [ 1 ],
+					"synRM" : [ 0.5 ],
+					"tensionLength" : [ 32.0 ]
 				}
 
 			}

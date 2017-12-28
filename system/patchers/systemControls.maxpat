@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 712.0, 492.0, 47.0, 20.0 ],
+					"style" : "",
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -168,7 +181,7 @@
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"style" : "",
@@ -187,24 +200,24 @@
 					"patching_rect" : [ 560.0, 567.0, 234.0, 20.0 ],
 					"restore" : 					{
 						"cDGR" : [ -12.0 ],
-						"chordTog" : [ 0 ],
-						"dT" : [ 90.0 ],
-						"density" : [ 0.6 ],
-						"gGFT" : [ 100.0 ],
-						"gTT" : [ 16.0 ],
+						"chordTog" : [ 1 ],
+						"dT" : [ 120.0 ],
+						"density" : [ 0.55 ],
+						"gGFT" : [ 0.0001 ],
+						"gTT" : [ 0.005 ],
 						"indeterminency" : [ 0.0 ],
 						"kRM" : [ 0.0 ],
-						"modeSel" : [ 6 ],
+						"modeSel" : [ 2 ],
 						"pDGR" : [ -3.0 ],
-						"pRM" : [ 1.0 ],
-						"sDGR" : [ -9.0 ],
+						"pRM" : [ 0.0 ],
+						"sDGR" : [ -12.0 ],
 						"sDT" : [ 90.0 ],
 						"sRM" : [ 0.2 ],
-						"swing" : [ 0.3 ],
-						"synDGR" : [ -12.0 ],
-						"synMeloRulePosit" : [ 3 ],
+						"swing" : [ 0.01 ],
+						"synDGR" : [ -6.0 ],
+						"synMeloRulePosit" : [ 1 ],
 						"synRM" : [ 0.5 ],
-						"tensionLength" : [ 64.0 ]
+						"tensionLength" : [ 32.0 ]
 					}
 ,
 					"style" : "",
@@ -1597,6 +1610,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
