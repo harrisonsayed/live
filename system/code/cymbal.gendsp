@@ -668,9 +668,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 207.0, 291.0, 22.0 ],
+									"patching_rect" : [ 9.0, 207.0, 292.0, 22.0 ],
 									"style" : "",
-									"text" : "sample cymbalEnv3BP @interp cubic @index phase"
+									"text" : "sample cymbalEnv3BP @interp linear @index phase"
 								}
 
 							}
@@ -1295,9 +1295,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 207.0, 291.0, 22.0 ],
+									"patching_rect" : [ 9.0, 207.0, 292.0, 22.0 ],
 									"style" : "",
-									"text" : "sample cymbalEnv2BP @interp cubic @index phase"
+									"text" : "sample cymbalEnv2BP @interp linear @index phase"
 								}
 
 							}
@@ -1929,9 +1929,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 207.0, 291.0, 22.0 ],
+									"patching_rect" : [ 9.0, 207.0, 292.0, 22.0 ],
 									"style" : "",
-									"text" : "sample cymbalEnv1BP @interp cubic @index phase"
+									"text" : "sample cymbalEnv1BP @interp linear @index phase"
 								}
 
 							}

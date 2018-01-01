@@ -45,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.5, 123.600006, 56.0, 22.0 ],
-					"presentation_rect" : [ 686.166626, 77.600006, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r prePos"
 				}
@@ -2514,9 +2513,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 184.5, 267.0, 22.0 ],
+									"patching_rect" : [ 9.0, 184.5, 268.0, 22.0 ],
 									"style" : "",
-									"text" : "sample kickEnvBP @interp cubic @index phase"
+									"text" : "sample kickEnvBP @interp linear @index phase"
 								}
 
 							}
@@ -3160,9 +3159,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 184.5, 267.0, 22.0 ],
+									"patching_rect" : [ 9.0, 184.5, 268.0, 22.0 ],
 									"style" : "",
-									"text" : "sample kickEnvBP @interp cubic @index phase"
+									"text" : "sample kickEnvBP @interp linear @index phase"
 								}
 
 							}
@@ -3775,9 +3774,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 184.5, 267.0, 22.0 ],
+									"patching_rect" : [ 9.0, 184.5, 268.0, 22.0 ],
 									"style" : "",
-									"text" : "sample kickEnvBP @interp cubic @index phase"
+									"text" : "sample kickEnvBP @interp linear @index phase"
 								}
 
 							}
@@ -4421,9 +4420,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 184.5, 267.0, 22.0 ],
+									"patching_rect" : [ 9.0, 184.5, 268.0, 22.0 ],
 									"style" : "",
-									"text" : "sample kickEnvBP @interp cubic @index phase"
+									"text" : "sample kickEnvBP @interp linear @index phase"
 								}
 
 							}
@@ -6229,9 +6228,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 184.5, 267.0, 22.0 ],
+									"patching_rect" : [ 9.0, 184.5, 268.0, 22.0 ],
 									"style" : "",
-									"text" : "sample kickEnvBP @interp cubic @index phase"
+									"text" : "sample kickEnvBP @interp linear @index phase"
 								}
 
 							}
@@ -6913,9 +6912,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 9.0, 184.5, 267.0, 22.0 ],
+									"patching_rect" : [ 9.0, 184.5, 268.0, 22.0 ],
 									"style" : "",
-									"text" : "sample kickEnvBP @interp cubic @index phase"
+									"text" : "sample kickEnvBP @interp linear @index phase"
 								}
 
 							}
